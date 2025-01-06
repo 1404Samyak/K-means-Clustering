@@ -1,0 +1,3 @@
+This problem statement is solved using KMeans clustering algorithm where we first initialise 'k' centroids and assign each datapoint with a class with the centroid its closest to and recalculate all the centroids coordinates again by taking mean of respective cluster points
+We repeat the above process until we reach max number of iterations or coordinates of centroid do not change more
+We can choose the value of k from sillhouette score,the k corresponding to maximum silhouette score is chosen
